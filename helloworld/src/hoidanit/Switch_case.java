@@ -20,11 +20,10 @@ public class Switch_case {
 		case 2:
 			System.out.println("Bạn đã lựa chọn phép trừ");
 			break;
-		case 3:
+		default:
 			System.out.println("Bạn đã lựa chọn thoát chương trình");
 			System.exit(0);
 			break;
 		}
-		System.out.println("Lựa chọn của bạn là : ");
 	}
 }
