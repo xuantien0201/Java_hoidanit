@@ -28,8 +28,8 @@ public class Bai3 {
 		System.out.println("Sắp xếp các phần tử từ bé đến lớn: " + Arrays.toString(list));
 		System.out.println(list[0]);
 		System.out.println(list[n - 1]);
-		int min = 0;
-		int max = 0;
+		int min = list[0];
+		int max = list[0];
 		for (int i = 0; i < n; i++) {
 			if (list[i] < min) {
 				min = list[i];
