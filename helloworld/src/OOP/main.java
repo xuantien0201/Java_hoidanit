@@ -4,12 +4,10 @@ public class main {
 
 	public static void main(String[] args) {
 		System.out.println("Start file main");
+		Student student1 = new Student();
+		System.out.println("Name: " + student1.getName() + "and age: " + student1.getAge());
 
-		// khai báo 1 object và gán giá trị cho các thuộc tính của object
-		Student studentA = new Student();
-		System.out.println("Họ tên: " + studentA.name + " và " + "Tuổi: " + studentA.age);
-
-		Student studentB = new Student("MyName", 21);
-		System.out.println("Check: " + studentB.name + " - " + studentB.age);
+		Student student2 = new Student("Tiến", 21);
+		System.out.println("Name: " + student2.getName() + " and age: " + student2.getAge());
 	}
 }
