@@ -13,7 +13,7 @@ public class Switch_case {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Lựa chọn của bạn là : ");
 		int choice = scanner.nextInt();
-		switch(choice) {
+		switch (choice) {
 		case 1:
 			System.out.println("Bạn đã lựa chọn phép cộng");
 			break;
@@ -24,6 +24,8 @@ public class Switch_case {
 			System.out.println("Bạn đã lựa chọn thoát chương trình");
 			System.exit(0);
 			break;
+
 		}
+		scanner.close();
 	}
 }

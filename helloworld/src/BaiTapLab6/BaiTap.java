@@ -12,5 +12,6 @@ public class BaiTap {
 		if (username.equals("hoidanit") && (password.length() > 6)) {
 			System.out.println("Hợp lệ");
 		}
+		sc.close();
 	}
 }
