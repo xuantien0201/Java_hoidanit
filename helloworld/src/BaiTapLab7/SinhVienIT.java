@@ -1,10 +1,18 @@
 package BaiTapLab7;
 
 public class SinhVienIT extends SinhVien {
-	String language;
+	private double scoreJava;
+	private double scoreHTML;
 
-	public void getFramework() {
-		System.out.println("Run getFW from SinhVienIT");
-		super.info();
+	public SinhVienIT(double scoreJava, double scoreHTML) {
+		// TODO Auto-generated constructor stub
+		this.scoreJava = scoreJava;
+		this.scoreHTML = scoreHTML;
+	}
+
+	@Override
+	public double tinhdiem() {
+		return (scoreJava * 2 + scoreHTML) / 3;
+
 	}
 }
